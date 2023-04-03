@@ -1,0 +1,16 @@
+#Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
+
+number1 = int(input('Digite o número que deseja obter a tabuada: '))
+print('------------')
+print(f'{number1} X  0 = {number1 * 0}')
+print(f'{number1} X  1 = {number1 * 1}')
+print(f'{number1} X  2 = {number1 * 2}')
+print(f'{number1} X  3 = {number1 * 3}')
+print(f'{number1} X  4 = {number1 * 4}')
+print(f'{number1} X  5 = {number1 * 5}')
+print(f'{number1} X  6 = {number1 * 6}')
+print(f'{number1} X  7 = {number1 * 7}')
+print(f'{number1} X  8 = {number1 * 8}')
+print(f'{number1} X  9 = {number1 * 9}')
+print(f'{number1} X 10 = {number1 * 10}')
+print('------------')
