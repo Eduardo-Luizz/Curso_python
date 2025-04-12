@@ -1,8 +1,8 @@
-# Crie um módulo chamado moeda.py
-# que tenha as funções incorporadas aumentar(), diminuir(), dobro() e metade().
-# Faça também um programa que importe esse módulo e use algumas dessas funções.
+import moeda
 
-def aumentar(valor):
-    rr
+valor = float(input("Digite o preço: R$"))
 
-
+moeda.metade(valor)
+moeda.dobro(valor)
+moeda.aumentar(valor, 10)
+moeda.diminuir(valor, 10)
